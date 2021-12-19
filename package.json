@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "latest-version": "^6.0.0"
+  },
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Node.",
+  "main": "index.html",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Striiderr/git-test.git"
+  },
+  "author": "Gaurav Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Striiderr/git-test/issues"
+  },
+  "homepage": "https://github.com/Striiderr/git-test#readme"
+}
